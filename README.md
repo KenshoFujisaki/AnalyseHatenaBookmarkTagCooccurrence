@@ -1,5 +1,10 @@
 # AnalyseHatenaBookmarkTagCooccurrence
-はてなブックマークの共起タグを分析します。
+はてなブックマークの共起タグを分析します。  
+下図は、「機械学習」タグが付いているWebページをほぼ全ページを取得し、[Gephi](http://oss.infoscience.co.jp/gephi/gephi.org/)でタグの共起ネットワーク描画しています。
+![「機械学習」タグの共起タグすべて](./img/機械学習_全体.png)
+![「deeplearning」タグまわり](./img/機械学習_deeplearning.png)
+![「協調フィルタリング」タグまわり](./img/機械学習_協調フィルタリング.png)
+![「openCV」タグまわり](./img/機械学習_openCV.png)
 
 ## はてなブックマークからの情報取得
 1. はてなブックマーク情報取得スクリプトの実行  

@@ -1,5 +1,5 @@
 # AnalyseHatenaBookmarkTagCooccurrence
-はてなブックマークの共起タグを分析します。
+はてなブックマークの共起タグを取得し、ネットワーク表示します。
 
 ## はてなブックマークからの情報取得
 1. はてなブックマーク情報取得スクリプトの実行  
@@ -54,7 +54,7 @@
     * 例２：はてなブックマークがついている新着のWebページを対象に1000ページ取得し、共起タグとする共起回数の下限値を10回とする場合は次の通りです。
       
         ```shellscript
-        python get_cooccurrence.py -s tag -q 機械学習 -c10 -f 1000
+        python get_cooccurrence.py -s entrylist -q 機械学習 -c10 -f 1000
         ```
 
 2. 共起ネットワークの描画  

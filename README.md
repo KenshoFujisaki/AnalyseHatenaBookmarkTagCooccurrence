@@ -1,5 +1,5 @@
 # AnalyseHatenaBookmarkTagCooccurrence
-はてなブックマークの共起タグを取得し、ネットワーク表示します。
+はてなブックマークの共起タグを取得し、ネットワーク表示します。  
 下図は、「機械学習」タグが付いているWebページをほぼ全ページを取得し、[Gephi](http://oss.infoscience.co.jp/gephi/gephi.org/)でタグの共起ネットワーク描画しています。
 ![「機械学習」タグの共起タグすべて](./img/機械学習_全体.png)
 ![「deeplearning」タグまわり](./img/機械学習_deeplearning.png)
@@ -63,7 +63,9 @@
         ```
 
 2. 共起ネットワークの描画  
-    以下ではRのigraphライブラリを用いて共起ネットワークを描画します。ノード数が1000を超えるくらい大きなネットワークの場合、適切に描画できません。この場合、[Gephi](http://oss.infoscience.co.jp/gephi/gephi.org/)等のアプリケーションを用いることを推薦します。
+    以下ではRのigraphライブラリを用いて共起ネットワークを描画します。  
+    ノード数が1000を超えるくらい大きなネットワークの場合、適切に描画できません。  
+    この場合、[Gephi](http://oss.infoscience.co.jp/gephi/gephi.org/)等のアプリケーションを用いることを推薦します。
 
     1. Rの実行
 
